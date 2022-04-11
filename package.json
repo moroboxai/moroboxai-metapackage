@@ -11,7 +11,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist --force-local",
+    "bootstrap": "lerna bootstrap --force-local",
     "build": "lerna run --stream build",
     "test": "lerna run --stream test"
   }
