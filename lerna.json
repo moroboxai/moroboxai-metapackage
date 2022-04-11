@@ -1,0 +1,9 @@
+{
+    "packages": [
+      "moroboxai-game-sdk",
+      "moroboxai-games/games/*",
+      "moroboxai-player-sdk",
+      "moroboxai-player-web"
+    ],
+    "version": "0.0.0"
+  }
