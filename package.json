@@ -3,9 +3,13 @@
   "private": true,
   "workspaces": [
     "moroboxai-game-sdk",
-    "moroboxai-game/games/*",
+    "moroboxai-games/games/pixijs-template",
+    "moroboxai-games/games/pong",
+    "moroboxai-games/games/skeleton",
+    "moroboxai-games/games/towerdefense",
     "moroboxai-player-sdk",
-    "moroboxai-player-web"
+    "moroboxai-player-web",
+    "moroboxai-player-react"
   ],
   "devDependencies": {
     "lerna": "^4.0.0"

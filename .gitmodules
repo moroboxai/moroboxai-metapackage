@@ -10,3 +10,6 @@
 [submodule "moroboxai-games"]
 	path = moroboxai-games
 	url = https://github.com/moroboxai/moroboxai-games.git
+[submodule "moroboxai-player-react"]
+	path = moroboxai-player-react
+	url = https://github.com/moroboxai/moroboxai-player-react.git
