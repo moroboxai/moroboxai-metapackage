@@ -9,6 +9,7 @@
     "moroboxai-games/games/towerdefense",
     "moroboxai-player-sdk",
     "moroboxai-player-web",
+    "moroboxai-player-web/playground",
     "moroboxai-player-react"
   ],
   "devDependencies": {
