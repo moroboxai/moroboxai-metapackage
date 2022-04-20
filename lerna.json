@@ -1,14 +1,16 @@
 {
-    "packages": [
-      "moroboxai-game-sdk",
-      "moroboxai-games/games/pixijs-template",
-      "moroboxai-games/games/pong",
-      "moroboxai-games/games/skeleton",
-      "moroboxai-games/games/towerdefense",
-      "moroboxai-player-sdk",
-      "moroboxai-player-web",
-      "moroboxai-player-web/playground",
-      "moroboxai-player-react"
-    ],
-    "version": "0.0.0"
-  }
+  "packages": [
+    "moroboxai-game-sdk",
+    "moroboxai-games/games/pixijs-template",
+    "moroboxai-games/games/pong",
+    "moroboxai-games/games/skeleton",
+    "moroboxai-games/games/towerdefense",
+    "moroboxai-player-sdk",
+    "moroboxai-player-web",
+    "moroboxai-player-web/playground",
+    "moroboxai-player-react"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
