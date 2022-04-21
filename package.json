@@ -8,16 +8,15 @@
       "moroboxai-games/games/pong",
       "moroboxai-games/games/skeleton",
       "moroboxai-games/games/towerdefense",
+      "moroboxai-editor-sdk",
+      "moroboxai-editor-web",
+      "moroboxai-editor-react",
       "moroboxai-player-sdk",
       "moroboxai-player-web",
-      "moroboxai-player-web/playground",
       "moroboxai-player-react"
     ],
     "nohoist": [
-      "**/moroboxai-player-web",
-      "**/moroboxai-player-web/**",
-      "**/pixi.js",
-      "**/pixi.js/**"
+      "**"
     ]
   },
   "devDependencies": {
