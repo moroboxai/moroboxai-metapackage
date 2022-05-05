@@ -26,6 +26,23 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --force-local",
     "build": "lerna run --stream build",
+    "build-game-sdk": "cd moroboxai-game-sdk && npm run build",
+    "build-editor-sdk": "cd moroboxai-editor-sdk && npm run build",
+    "build-editor-web": "cd moroboxai-editor-web && npm run build",
+    "build-editor-react": "cd moroboxai-editor-react && npm run build",
+    "build-editor": "npm run build-editor-sdk && npm run build-editor-web",
+    "build-player-sdk": "cd moroboxai-player-sdk && npm run build",
+    "build-player-web": "cd moroboxai-player-web && npm run build",
+    "build-player-react": "cd moroboxai-player-react && npm run build",
+    "build-player": "npm run build-player-sdk && npm run build-player-web",
+    "build-pong": "cd moroboxai-games/games/pong && npm run build",
+    "dev-editor-web": "cd moroboxai-editor-web && npm run dev",
+    "dev-editor-react": "cd moroboxai-editor-react/playground && npm run dev",
+    "dev-editor": "npm run dev-editor-web",
+    "dev-player-web": "cd moroboxai-player-web && npm run dev",
+    "dev-player-react": "cd moroboxai-player-react/playground && npm run dev",
+    "dev-player": "npm run dev-player-web",
+    "dev-pong": "cd moroboxai-games/games/pong && npm run dev",
     "test": "lerna run --stream test"
   }
 }
