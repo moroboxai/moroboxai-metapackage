@@ -8,6 +8,7 @@
     "moroboxai-editor-sdk",
     "moroboxai-editor-web",
     "moroboxai-editor-react",
+    "moroboxai-editor-react/playground",
     "moroboxai-player-sdk",
     "moroboxai-player-web",
     "moroboxai-player-react"
