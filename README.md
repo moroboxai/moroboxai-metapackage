@@ -23,11 +23,13 @@ npm run build
   * `npm run build-editor-sdk`: only build moroboxai-editor-sdk
   * `npm run build-editor-web`: only build moroboxai-editor-web
   * `npm run build-editor-react`: only build moroboxai-editor-react
-  * `npm run build-editor`: build moroboxai-editor-sdk and moroboxai-editor-web
+  * `npm run build-editor`: build all editor packages
   * `npm run build-player-sdk`: only build moroboxai-player-sdk
   * `npm run build-player-web`: only build moroboxai-player-web
   * `npm run build-player-react`: only build moroboxai-player-react
-  * `npm run build-player`: build moroboxai-player-sdk and moroboxai-player-web
+  * `npm run build-player`: build all player packages
+  * `npm run build-moroxel8ai-sdk`: only build moroxel8ai-sdk
+  * `npm run build-moroxel8ai`: build all moroxel8ai packages
   * `npm run build-pong`: build @moroboxai-games/pong
   * `npm run dev-editor-web`: run a local server for testing moroboxai-editor-web
   * `npm run dev-editor-react`: run a local server for testing moroboxai-editor-react
