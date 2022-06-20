@@ -4,6 +4,7 @@
   "workspaces": {
     "packages": [
       "moroboxai-game-sdk",
+      "moroboxai-lua-sdk",
       "moroboxai-games/games/pixijs-template",
       "moroboxai-games/games/pong",
       "moroboxai-games/games/skeleton",
@@ -14,7 +15,10 @@
       "moroboxai-editor-react/playground",
       "moroboxai-player-sdk",
       "moroboxai-player-web",
-      "moroboxai-player-react"
+      "moroboxai-player-react",
+      "moroxel8ai-sdk",
+      "moroxel8ai",
+      "moroboxai"
     ],
     "nohoist": [
       "**"
@@ -36,6 +40,8 @@
     "build-player-web": "cd moroboxai-player-web && npm run build",
     "build-player-react": "cd moroboxai-player-react && npm run build",
     "build-player": "npm run build-player-sdk && npm run build-player-web && npm run build-player-react",
+    "build-moroxel8ai-sdk": "cd moroxel8ai-sdk && npm run build",
+    "build-moroxel8ai": "npm run build-moroxel8ai-sdk && cd moroxel8ai && npm run build",
     "build-pong": "cd moroboxai-games/games/pong && npm run build",
     "build-all": "npm run build-game-sdk && npm run build-player && npm run build-editor",
     "dev-editor-web": "cd moroboxai-editor-web && npm run dev",

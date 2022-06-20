@@ -22,3 +22,6 @@
 [submodule "moroboxai-editor-react"]
 	path = moroboxai-editor-react
 	url = https://github.com/moroboxai/moroboxai-editor-react.git
+[submodule "moroboxai"]
+	path = moroboxai
+	url = https://github.com/moroboxai/moroboxai.git
