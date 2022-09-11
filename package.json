@@ -5,10 +5,6 @@
     "packages": [
       "moroboxai-game-sdk",
       "moroboxai-lua-sdk",
-      "moroboxai-games/games/pixijs-template",
-      "moroboxai-games/games/pong",
-      "moroboxai-games/games/skeleton",
-      "moroboxai-games/games/towerdefense",
       "moroboxai-editor-sdk",
       "moroboxai-editor-web",
       "moroboxai-editor-react",
@@ -18,7 +14,8 @@
       "moroboxai-player-react",
       "moroxel8ai-sdk",
       "moroxel8ai",
-      "moroboxai"
+      "moroboxai",
+      "moroboxai-studio"
     ],
     "nohoist": [
       "**"
@@ -42,7 +39,7 @@
     "build-player": "npm run build-player-sdk && npm run build-player-web && npm run build-player-react",
     "build-moroxel8ai-sdk": "cd moroxel8ai-sdk && npm run build",
     "build-moroxel8ai": "npm run build-moroxel8ai-sdk && cd moroxel8ai && npm run build",
-    "build-pong": "cd moroboxai-games/games/pong && npm run build",
+    "build-studio": "cd moroboxai-studio && npm run build",
     "build-all": "npm run build-game-sdk && npm run build-player && npm run build-editor",
     "dev-editor-web": "cd moroboxai-editor-web && npm run dev",
     "dev-editor-react": "cd moroboxai-editor-react/playground && npm run dev",
@@ -50,7 +47,6 @@
     "dev-player-web": "cd moroboxai-player-web && npm run dev",
     "dev-player-react": "cd moroboxai-player-react/playground && npm run dev",
     "dev-player": "npm run dev-player-web",
-    "dev-pong": "cd moroboxai-games/games/pong && npm run dev",
     "test": "lerna run --stream test"
   }
 }
